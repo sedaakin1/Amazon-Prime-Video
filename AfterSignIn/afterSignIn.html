@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prime Video || After Sign In</title>
+    <link rel="shortcut icon" href="Home/img/nav-icon.png" type="image/png" />
+    <link rel="stylesheet" href="afterSignIn.css" />
+    <script
+     src="https://kit.fontawesome.com/7edaac5171.js"
+     crossorigin="anonymous">
+    </script>
+</head>
+<body>
+
+    <!-- navigation-start -->
+
+    <nav>
+        <div class="logo">
+            <a href=""><img src="../images/logo.png" alt="logo"></a>
+        </div>
+    
+
+    <div class="right-menu">
+        <a href="">
+            <i class="fas fa-globe"></i>
+            <label for="lang">EN</label>
+            <i class="fas fa-caret-down arrowDown langBtn"></i>
+        </a>
+
+        <img src="../images/profile.png" alt="profile">
+        <span
+         id="userName" style="width: 120px; overflow: hidden; text-transform: capitalize;">
+         <i class="fas fa-caret-down arrowDown langBtn"></i>
+        </span>
+    </div>
+    </nav>
+
+
+    <!-- navigation-end -->
+    
+    <!-- main-start -->
+    <header>
+    <img src="../images/home-1.jpg" alt="poster-1" />
+    <div class="textOverImage">
+        <h1>Welcome to Prime Video</h1>
+        <p>Join Prime to watch the latest movies, Tv shows and award-winning Amazon Originals</p>
+        <button type="submit" onclick="subscription('freeSubscription')">
+            Start your 30-days free trial
+        </button>
+        <p>With Select credit and debit cards</p>
+        <button type="submit" onclick="subscription('annualSubscription')">
+            Annual Prime at &#8377;1499
+        </button>
+        <p>With Select credit and debit cards</p>
+        <button type="submit" onclick="subscription('quarterlySubscription')">
+            Quarterly Prime at &#8377;459
+        </button>
+        <p>With Select credit and debit cards</p>
+        <button type="submit" onclick="subscription('monthlySubscription')">
+            Monthly Prime at &#8377;179
+        </button>
+        <p>With Select credit and debit cards</p>
+    </div>
+    </header>
+
+    <section>
+        <div class="section">
+            <div class="favChannels">
+                <h1>Your favourite channels all in one place</h1>
+                <p>
+                    With Prime Video Channels, find shows and movies from your favourite
+                    channels all in one place. Enjoy with an add-on subscription to channels 
+                    of your choice.
+                </p>
+            </div>
+            
+            <div class="channelBtn"></div>
+        </div>
+    </section>
+
+    <header class="membershipHeader">
+        <img src="../images/prime.jpg" alt="poster-2" />
+        <div class="textOverImage" id="membershipDiv">
+            <h1 class="membershipHead">One membership, many benefits</h1>
+            <p class="membershipPara">
+                Your Prime membership now also includes add-free music along with
+                unlimited free, fast delivery on eligible items, exclusive access to deals and more.
+            </p>
+            <button type="submit" onclick="signIn()">Get Started</button>
+        </div>
+    </header>
+
+    <header class="fireTvHeader">
+        <img src="../images/home-3.jpg" alt="poster-3" />
+        <div class="firetvOverImage" id="firetvDiv">
+            <h1 class="fireTvHead">Even better with Fire Tv Stick</h1>
+            <p class="fireTvPara">
+                The biggest movies and TV shows are always better on a big screen.
+                Simply plug in your Amazon Fire Tv Stick and stream on any HDTV. Press the voice
+                button on the remote and say the name of the title you want to watch to find it in seconds.
+            </p>
+            <button type="submit">Get Started</button>
+        </div>
+    </header>
+    
+    <header class="membershipHeader">
+        <img src="../images/home-4.jpg" alt="poster-4">
+        <div class="textOverImage" id="membershipDiv">
+            <h1 class="membershipHead">Family Friendly</h1>
+            <p class="membershipPara">
+                With easy to use Parental Controls and dedicated kids page, enjoy secure,
+                ad-free kids entertaintment. Kids can enjoy popular TV shows like Peppa Pig,
+                Powerpuff Girls and Chhota Bheem.
+            </p>
+            <button type="submit">Get Started</button>
+        </div>
+    </header>
+
+    <!-- main-end -->
+
+
+    <!-- footer-start -->
+    <footer>
+        <div class="logo">
+            <div>
+                <img src="../images/footer-logo.png" alt="footer-logo" id="footer-image">
+            </div>
+            <div id="copyright">
+                <p><a href="">Terms and Privacy Notice</a></p>
+                <p><a href="">Send us feedback</a></p>
+                <p><a href="">Help</a></p>
+                <p class="copy">© 1996-2023, Amazon.com, Inc or its affiliates</p>
+            </div>
+        </div>
+        </footer>
+    
+    <!-- footer-end -->
+
+    <!-- Script -->
+
+    <script src="../Home/script.js"></script>
+    <script src="afterSignIn.js"></script> 
+    
+</body>
+</html>
+
+
